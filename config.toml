@@ -1,4 +1,4 @@
-baseurl = "https://aish.io"
+baseurl = "https://aish.io/"
 languageCode = "en-US"
 title = "Aish's homepage"
 theme = "hugo-sustain"
