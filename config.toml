@@ -1,0 +1,44 @@
+baseurl = "https://aish.io"
+languageCode = "en-US"
+title = "Aish's homepage"
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  author = "Aish Raj Dahal"
+  description = "Aish's home on the World Wide Web"
+  GravatarHash = "a9f0a49858f056a56a6b7b6307c0e61f"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "aishraj"
+  Email         = "contact@aishraj.com"
+  Twitter       = "aishrajdahal"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "https://blog.aish.io"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+#TODO: Add resume
+# [[menu.main]]
+  # name = "resume"
+  # identifier = "resume"
+  # weight = 300
+  # url = "/resume/"
+ [[menu.main]]
+  name = "talks"
+  identifier = "talks"
+  weight = 400
+  url = "/talks/" 
