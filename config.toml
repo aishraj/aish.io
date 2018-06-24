@@ -7,7 +7,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  author = "Aish Raj Dahal"
+  author = "Aish Raj Dahal (ऐशराज दाहाल)"
   description = "Aish's home on the World Wide Web"
   GravatarHash = "a9f0a49858f056a56a6b7b6307c0e61f"
 

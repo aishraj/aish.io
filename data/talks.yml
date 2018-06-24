@@ -15,3 +15,8 @@ source:
     confname: Papers We Love San Francisco - June 2017
     talktitle: Cuckoo Filters - Better than Bloom!
     description: I have a short talk at Papers We Love San Francisco about Cuckoo Filters and how it was faster than traditional Bloom filters.
+
+  - icon: fa fa-comments
+    confname: Code BEAM Stockholm - May 2018
+    talktitle: Building an SLO tracker at PagerDuty
+    description: I gave a short talk about how my team at work built an SLO tracker that used OTP's ETS store along with Apache Kafka for tracking throughput.
