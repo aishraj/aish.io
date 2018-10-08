@@ -26,11 +26,12 @@ theme = "hugo-sustain"
   weight = 100
   identifier = "blog"
   url = "https://blog.aish.io"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
+# Reworking this part
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
 #TODO: Add resume
 # [[menu.main]]
   # name = "resume"
