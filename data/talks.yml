@@ -20,3 +20,25 @@ source:
     confname: Code BEAM Stockholm - May 2018
     talktitle: Building an SLO tracker at PagerDuty
     description: I gave a short talk about how my team at work built an SLO tracker that used OTP's ETS store along with Apache Kafka for tracking throughput.
+
+  - icon: fa fa-comments
+    confname: QCon NY - June 2018
+    talktitle: Modeling the real world with Elixir/OTP
+    description: I spoke about how Elixir supports modeling realtime events and gave a short demo based on the Boids simulation.
+
+  - icon: fa fa-comments
+    confname: SRECon EMEA 2018
+    yturl: https://www.youtube-nocookie.com/embed/52T4Y_LtD2g
+    talktitle: Not Invented Here Syndrome and Dark Debt
+    description: I gave this talk to deep dive into a case study of a library that my then employer had developed and retired and how the system accumulated dark debt. 
+
+  - icon: fa fa-comments
+    confname: ElixirConf 2018
+    yturl: https://www.youtube-nocookie.com/embed/bL7DNGhQ5js
+    talktitle: Building an SLO tracker at PagerDuty
+    description: This was the same talk that I gave at Code BEAM Stockholm that year.
+
+  - icon: fa fa-comments
+    confname: O'reilly Velocity New York 2018
+    talktitle: Not Invented Here Syndrome and Dark Debt
+    description: This was same as the talk I had given at SRECon EMEA that year.
