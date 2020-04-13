@@ -1,0 +1,100 @@
+body {
+  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+}
+
+header {
+  width: 100%;
+}
+
+section {
+  flex: none;
+  max-width: 480px;
+}
+
+p {
+  font-kerning: normal;
+  font-weight: 500;
+  line-height: 1.618;
+  font-size: 116.625%;
+}
+
+h1 {
+  border-radius: 0.25rem;
+  max-width: max-content;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-weight: 300;
+  font-size: 515%;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 a {
+  font-weight: 300;
+  color: #333;
+}
+
+.no-underline {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.solarizedlight {
+  background: #eee8d5;
+  color: #073642;
+}
+
+.solarizedlight a {
+  color: #d33682;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.1875rem;
+}
+
+.solarizedlight a:visited {
+  color: #dc322f;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.1875rem;
+}
+
+.solarizedlight a:focus,
+.solarizedlight a:hover {
+  color: #b58900;
+}
+
+.solarizedlight .learn-more a,
+.solarizedlight header h1 {
+  background-color: unset;
+  border-radius: 0;
+}
+
+.solarizedlight .intro {
+  color: #ccc;
+}
+
+#language {
+  font-size: 100%;
+  color: #2aa198;
+}
+
+#language a:hover,
+#language a:focus,
+#language a,
+#language a:visited {
+  color: #2aa198;
+}
